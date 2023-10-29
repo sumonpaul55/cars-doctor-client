@@ -1,0 +1,10 @@
+.cart-detail {
+    /* background: url("../../assets/images/checkout/checkout.png") rgba(0, 0, 0, .6);
+    background-blend-mode: multiply; */
+    background:
+        /* top, transparent red */
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../assets/images/checkout/checkout.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

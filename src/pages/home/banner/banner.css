@@ -1,0 +1,35 @@
+.react-multi-carousel-list .react-multiple-carousel__arrow--left,
+.react-multi-carousel-list .react-multiple-carousel__arrow--right {
+    bottom: 8% !important;
+}
+
+.react-multi-carousel-list .react-multiple-carousel__arrow--left:hover,
+.react-multi-carousel-list .react-multiple-carousel__arrow--right:hover {
+    background-color: #FF3811;
+}
+
+.react-multi-carousel-list .react-multiple-carousel__arrow--left {
+    left: 70%;
+}
+
+.react-multi-carousel-list .react-multiple-carousel__arrow--right {
+    left: 90%;
+    width: 35px;
+}
+
+.carousel-img-box::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.341);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+@media (min-width: 992px) {
+    .react-multi-carousel-list .react-multiple-carousel__arrow--left {
+        left: 85%;
+    }
+}
